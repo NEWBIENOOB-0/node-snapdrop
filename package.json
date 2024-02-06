@@ -1,4 +1,5 @@
 {
+  "homepage": "https://newbienoob-0.github.io//node-snapdrop",
   "name": "snapdrop",
   "private": true,
   "version": "1.0.0",
@@ -8,6 +9,8 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build" 
   "author": "",
   "license": "ISC",
   "dependencies": {
